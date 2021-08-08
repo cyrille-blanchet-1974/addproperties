@@ -1,7 +1,7 @@
 @echo off
 cargo build --release
 set prg=.\target\release\addproperties.exe
-echo key1.1=val1>> ori.properties
+echo key1.1=val1> ori.properties
 echo key1.2=val2>> ori.properties
 echo key1.3=val3>> ori.properties
 echo key2.1=val1>> ori.properties
@@ -12,7 +12,7 @@ echo -------------------------------------------
 type ori.properties
 echo -------------------------------------------
 echo Expected: add key2.4
-%prg%  /fic:ori.properties /key:"key24" /value:val4 
+%prg%  /fic:ori.properties /key:"key2.4" /value:val4 
 echo -------------------------------------------
 type ori.properties
 echo -------------------------------------------

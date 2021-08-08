@@ -5,7 +5,7 @@ function pause {
 
 cargo build --release
 export prg=./target/release/addproperties
-echo key1.1=val1>> ori.properties
+echo key1.1=val1> ori.properties
 echo key1.2=val2>> ori.properties
 echo key1.3=val3>> ori.properties
 echo key2.1=val1>> ori.properties
