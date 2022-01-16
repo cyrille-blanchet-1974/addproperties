@@ -47,7 +47,7 @@ echo -------------------------------------------
 pause
 echo .
 echo .
-echo Expected: key2.2 maj  and key2.2 stay key2.2
+echo Expected:  value of key2.2 maj  and key stay key2.2
 $prg  /fic:ori.properties /key:"KEY2.2" /value:val8
 echo -------------------------------------------
 cat ori.properties
